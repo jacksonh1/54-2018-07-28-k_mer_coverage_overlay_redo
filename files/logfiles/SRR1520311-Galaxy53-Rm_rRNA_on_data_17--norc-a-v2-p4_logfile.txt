@@ -1,0 +1,19 @@
+experiment: /Volumes/Flash/RPF_project_codes/reads/SRR1520311-Galaxy53-Rm_rRNA_on_data_17.fastq
+alignment index: /Volumes/Flash/RPF_project_codes/bowtie1-indexes/orf_coding-FILTERED1
+file prefix: SRR1520311-Galaxy53-Rm_rRNA_on_data_17--norc-a-v2-p4
+bowtie alignment command:
+bowtie -S -t --norc -a -v 2 -p 4 /Volumes/Flash/RPF_project_codes/bowtie1-indexes/orf_coding-FILTERED1 /Volumes/Flash/RPF_project_codes/reads/SRR1520311-Galaxy53-Rm_rRNA_on_data_17.fastq SRR1520311-Galaxy53-Rm_rRNA_on_data_17--norc-a-v2-p4.sam
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:13:39
+# reads processed: 28705097
+# reads with at least one reported alignment: 26193508 (91.25%)
+# reads that failed to align: 2511589 (8.75%)
+Reported 34227386 alignments
+Time searching: 00:13:40
+Overall time: 00:13:40
+converting to BAM, sorting, indexing
+[bam_sort_core] merging from 6 files and 1 in-memory blocks...
+deleting sam file
+data in alignment--norc-a-v2-p4
+DONE

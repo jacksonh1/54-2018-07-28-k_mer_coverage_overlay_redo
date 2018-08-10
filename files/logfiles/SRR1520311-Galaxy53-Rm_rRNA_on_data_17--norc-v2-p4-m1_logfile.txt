@@ -1,0 +1,33 @@
+experiment: /Volumes/external2/rpf-external/reads/SRR1520311-Galaxy53-Rm_rRNA_on_data_17.fastq
+alignment index: /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1
+file prefix: SRR1520311-Galaxy53-Rm_rRNA_on_data_17--norc-v2-p4-m1
+bowtie alignment command:
+bowtie -S -t --norc -v 2 -p 4 -m 1 --max SRR1520311-Galaxy53-Rm_rRNA_on_data_17--norc-v2-p4-m1-suppressed.fastq /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1 /Volumes/external2/rpf-external/reads/SRR1520311-Galaxy53-Rm_rRNA_on_data_17.fastq SRR1520311-Galaxy53-Rm_rRNA_on_data_17--norc-v2-p4-m1.sam
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:06:13
+# reads processed: 28705097
+# reads with at least one reported alignment: 19136642 (66.67%)
+# reads that failed to align: 2511589 (8.75%)
+# reads with alignments suppressed due to -m: 7056866 (24.58%)
+Reported 19136642 alignments
+Time searching: 00:06:13
+Overall time: 00:06:14
+converting to BAM, sorting, indexing
+[bam_sort_core] merging from 5 files and 1 in-memory blocks...
+deleting sam file
+aligning reads suppressed my m=1 (mulimappers)
+reporting all alignments
+bowtie -S -t --norc -v 2 -p 4 -a /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1 ./SRR1520311-Galaxy53-Rm_rRNA_on_data_17--norc-v2-p4-m1-suppressed.fastq SRR1520311-Galaxy53-Rm_rRNA_on_data_17--norc-v2-p4-m1-a_suppr_realigned.sam
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:02:08
+# reads processed: 7056866
+# reads with at least one reported alignment: 7056866 (100.00%)
+# reads that failed to align: 0 (0.00%)
+Reported 15090744 alignments
+Time searching: 00:02:08
+Overall time: 00:02:08
+converting to BAM, sorting, indexing
+[bam_sort_core] merging from 2 files and 1 in-memory blocks...
+deleting sam file

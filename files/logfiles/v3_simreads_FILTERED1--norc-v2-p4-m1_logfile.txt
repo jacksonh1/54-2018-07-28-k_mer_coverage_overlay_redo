@@ -1,0 +1,32 @@
+experiment: /Volumes/Flash/RPF_project_codes/reads/v3_simreads_FILTERED1.fastq
+alignment index: /Volumes/Flash/RPF_project_codes/bowtie1-indexes/orf_coding-FILTERED1
+file prefix: v3_simreads_FILTERED1--norc-v2-p4-m1
+bowtie alignment command:
+bowtie -S -t --norc -v 2 -p 4 -m 1 --max v3_simreads_FILTERED1--norc-v2-p4-m1-suppressed.fastq /Volumes/Flash/RPF_project_codes/bowtie1-indexes/orf_coding-FILTERED1 /Volumes/Flash/RPF_project_codes/reads/v3_simreads_FILTERED1.fastq v3_simreads_FILTERED1--norc-v2-p4-m1.sam
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:03:05
+# reads processed: 8323971
+# reads with at least one reported alignment: 7962724 (95.66%)
+# reads that failed to align: 0 (0.00%)
+# reads with alignments suppressed due to -m: 361247 (4.34%)
+Reported 7962724 alignments
+Time searching: 00:03:06
+Overall time: 00:03:06
+converting to BAM, sorting, indexing
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+deleting sam file
+aligning reads suppressed my m=1 (mulimappers)
+reporting all alignments
+bowtie -S -t --norc -v 2 -p 4 -a /Volumes/Flash/RPF_project_codes/bowtie1-indexes/orf_coding-FILTERED1 ./v3_simreads_FILTERED1--norc-v2-p4-m1-suppressed.fastq v3_simreads_FILTERED1--norc-v2-p4-m1-a_suppr_realigned.sam
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:00:25
+# reads processed: 361247
+# reads with at least one reported alignment: 361247 (100.00%)
+# reads that failed to align: 0 (0.00%)
+Reported 2739195 alignments
+Time searching: 00:00:26
+Overall time: 00:00:26
+converting to BAM, sorting, indexing
+deleting sam file
