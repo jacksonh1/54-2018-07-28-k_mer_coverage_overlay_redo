@@ -26,3 +26,4 @@ Thumbs.db
 *.bam
 *.bam.bai
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
