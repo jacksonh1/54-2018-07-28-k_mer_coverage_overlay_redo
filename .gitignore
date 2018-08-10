@@ -25,3 +25,4 @@ Thumbs.db
 *.fastq
 *.bam
 *.bam.bai
+.ipynb_checkpoints
